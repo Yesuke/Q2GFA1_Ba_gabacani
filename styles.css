@@ -1,3 +1,5 @@
+*{padding: 0; margin: 0;}
+
 navbar{
     display:flex;
     align-items: flex-start;
@@ -5,6 +7,13 @@ navbar{
     border: 2px solid black;
     padding: 10px;
     background-color: rgb(10, 143, 43);
+}
+.links{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 900;
+
 }
 .links a{
         text-decoration: none;
@@ -14,6 +23,7 @@ navbar{
        margin: 1px;
        font-weight:700;
        padding: 1px;
+       color: #000000;
 }
 .links a{padding:5px;}
 .links a:visited{
@@ -32,8 +42,9 @@ navbar{
 .name{
     font-size: xx-large;
     color: rgb(0, 0, 0);
-    font-family:'comic sans';
-    margin-right: 50vw;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-right: 50vw; 
 }
 .sprite {
 	background: url('images/') no-repeat -587px -72px;
@@ -59,14 +70,15 @@ footer{
 }
 .name a{
     text-decoration: none;
-}
+    color: rgb(0, 0, 0);}
+
 .name a:visited{
      color: rgb(0, 0, 0);
      text-decoration: none;
 }
 
 section video{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -87,6 +99,9 @@ section video{
   .copyright{
     font-size: x-large;
     margin-left: 65vw;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    
   }
   .soundcloud {
 	background: url('images/sprite3.png') no-repeat -587px -72px;
